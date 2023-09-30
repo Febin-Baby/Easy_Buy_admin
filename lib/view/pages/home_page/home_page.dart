@@ -1,4 +1,5 @@
 import 'package:easybuy_admin_app/view/brand/all_brands/all_brands.dart';
+import 'package:easybuy_admin_app/view/order_section/order_mainpage.dart';
 import 'package:easybuy_admin_app/view/pages/home_page/widgets/dash_items.dart';
 import 'package:easybuy_admin_app/view/pages/products_page/products_page.dart';
 import 'package:easybuy_admin_app/view/pages/users_page/users_page.dart';
@@ -42,13 +43,12 @@ class HomeScreen extends StatelessWidget {
                       Navigator.of(context).pushNamed(UsersPage.routename);
                     },
                   ),
-                  const SingleDashItems(
+                  SingleDashItems(
                     tittle: 'Orders',
                     subtitle: '12',
-                  ),
-                  const SingleDashItems(
-                    tittle: 'Cancel items',
-                    subtitle: '12',
+                    onPressed: () {
+                      Navigator.of(context).pushNamed(OrderMainScreen.orderRoute);
+                    },
                   ),
                 ],
               ),

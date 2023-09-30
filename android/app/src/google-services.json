@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "447417157074",
+    "project_id": "easybuy-user",
+    "storage_bucket": "easybuy-user.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447417157074:android:fe2f4ce5587c4e47b3f40b",
+        "android_client_info": {
+          "package_name": "com.febins.easybuy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447417157074-c5hcu6ri7imijkgn3ntvme4oo29j40m2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA04-Np-St0ry4z0omMAFiD8I7GbHgPktA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447417157074-c5hcu6ri7imijkgn3ntvme4oo29j40m2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447417157074:android:ea657850de431df1b3f40b",
+        "android_client_info": {
+          "package_name": "com.febinsadmin.easybuy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447417157074-c5hcu6ri7imijkgn3ntvme4oo29j40m2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA04-Np-St0ry4z0omMAFiD8I7GbHgPktA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447417157074-c5hcu6ri7imijkgn3ntvme4oo29j40m2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

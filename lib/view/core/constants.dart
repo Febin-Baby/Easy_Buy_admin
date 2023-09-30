@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class Boldtext extends StatelessWidget {
@@ -38,6 +39,14 @@ selectHieght(double? height) {
   );
 }
 
+const String embtyLottie = 'asset/lottie/animation_lmyr4fc2.json';
 const String password = 'Admin@123';
 const String email = 'admin@gmail.com';
 
+List<String> statusList = [
+  'Order placed',
+  'Order Shipped',
+  'Out For Delivery',
+];
+
+FirebaseAuth auth = FirebaseAuth.instance;

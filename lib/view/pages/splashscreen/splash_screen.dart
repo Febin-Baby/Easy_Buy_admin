@@ -20,7 +20,7 @@ class SplashScreen extends StatelessWidget {
       if(signIn){
         // ignore: use_build_context_synchronously
         Navigator.of(context).pushReplacementNamed(HomeScreen.routename);
-      }else{
+      } else {
         // ignore: use_build_context_synchronously
         Navigator.of(context).pushReplacementNamed('error');
       }

@@ -23,8 +23,8 @@ class DropDownProductAdd extends StatelessWidget {
         },
       ).toList(),
       onChanged: (value) {
-        String selectedvalue = value!;
-        dropDownController.selectItem(selectedvalue);
+        debugPrint('on changed ${dropDownController.selectItem(value!)}');
+        dropDownController.selectItem(value);
       },
     );
   }

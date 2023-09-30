@@ -1,6 +1,5 @@
 import 'dart:io';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:easybuy_admin_app/view/core/colors.dart';
 import 'package:easybuy_admin_app/view/widgets/loading_animation_widget.dart';
 import 'package:flutter/material.dart';
 

@@ -79,10 +79,10 @@ class AddBrandPage extends StatelessWidget {
                             ),
                           ),
                         ),
-                        child: Row(
+                        child: const Row(
                           mainAxisSize: MainAxisSize.min,
                           children: [
-                            const Icon(Icons.add),
+                            Icon(Icons.add),
                             Text('Add Brand'),
                           ],
                         ),
